@@ -16,7 +16,7 @@ This means that the executable is ELF(Executable and Linkable) Binary.
 The magic number at the start of a file is needed so that the Operating System can immediately identify the file format.
 
 ## Is your executable Little Endian or Big Endian?
-The 5th Byte = 01 which is for Little Endian(would be 02 for Big Endian).
+The 6th Byte = 01 which is for Little Endian.
 
 ## If the integer 0x12345678 is stored in memory on a Little Endian machine, write the sequence of bytes (low address to high address)
 
